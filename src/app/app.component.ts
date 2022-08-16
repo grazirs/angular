@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UserData } from './interfaces/user-data.interface';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   userName: string = 'Peter'
-  userData: {
-    email: string;
-    role: string;
-  } = {
+  userData: UserData = {
     email: 'peter@email.com',
     role: 'admin'
   }
