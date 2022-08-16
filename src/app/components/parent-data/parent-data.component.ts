@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { UserData } from 'src/app/interfaces/user-data.interface';
 
 @Component({
   selector: 'app-parent-data',
@@ -7,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ParentDataComponent implements OnInit {
   @Input() name: string = ''
-  @Input() userData: { email: string, role: string } = { email: '', role: '' }
+  @Input() userData: UserData = { email: '', role: '' }
 
   constructor() { }
 
