@@ -13,3 +13,12 @@ a {
 p {
   color: grey;
 }
+
+body {
+  padding-bottom: 500px;
+}
+
+.lesson {
+  border-bottom: 2px solid violet;
+  padding: 1em;
+}

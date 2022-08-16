@@ -1,0 +1,11 @@
+<div class="lesson">
+  <p>if-render works!</p>
+  <div *ngIf="canShow" class="lesson">
+    Showing because it has permission
+  </div>
+  <h2 *ngIf="name === 'John'"> the name is John</h2>
+  <h2 *ngIf="name === 'Peter'; else nameNotFound"> the name is Peter</h2>
+  <ng-template #nameNotFound>
+    <h2>Name not found</h2>
+  </ng-template>
+</div>
