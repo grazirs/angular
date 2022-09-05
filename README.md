@@ -4,8 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This repository aims to learn the basic angular framework concepts, applying valuable examples.
 
- []- Create the first component
- []- Understanding interpolation
+ [ ]- Create the first component
+ [ ]- Understanding interpolation
  []- Adding basic global and scoped CSS
  []- Sharing data
  []- Directives: ng
